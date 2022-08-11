@@ -1,0 +1,18 @@
+Rezolvati problema intr-un proiect maven(puteti sa-l folositi pe cel de la curs)
+    folosind Test Driven Development(TDD), adica vei crea testul inainte sa scrii codul algoritmului.
+
+Scrieti intr-o clasa 2 metode, una care primeste o temperatura in grade Fahrenheit si
+    returneaza temperatura respectiva convertita in grade Celsius, si cealalta celsius in fahrenheit
+
+Formula de conversie este:
+T(°C) = (T(°F) - 32) × 5/9
+T(°F) = T(°C) x 9/5 + 32
+
+Semnatura metodei este:
+public static double fahrenheitToCelsius(double temperature)
+public static double celsiusToFahrenheit(double temperature)
+
+Exemplu:
+fahrenheitToCelsius(100) -> 37.777777778
+fahrenheitToCelsius(0) -> -17.777777778
+fahrenheitToCelsius(50) -> 10
